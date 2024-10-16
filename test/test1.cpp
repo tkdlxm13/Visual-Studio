@@ -1,3 +1,4 @@
+// 다이아몬드 별찍기
 #include <iostream>
 
 using namespace std;

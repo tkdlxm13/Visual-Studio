@@ -1,3 +1,4 @@
+//단어 배열 호출
 #include <iostream>
 #include <string>
 using namespace std;
