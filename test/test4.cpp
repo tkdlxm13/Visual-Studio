@@ -1,4 +1,4 @@
-// 랜덤 숫자 찾기 게임
+//랜덤 숫자 찾기 게임
 #include <iostream>
 #include <stdlib.h>
 #include <time.h>

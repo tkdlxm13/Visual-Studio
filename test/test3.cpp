@@ -1,4 +1,4 @@
-// 계산기
+//계산기
 #include <iostream>
 #include <string>
 using namespace std;
