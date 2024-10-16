@@ -1,6 +1,6 @@
 //°è»ê±â
 #include <iostream>
-#include <string>
+
 using namespace std;
 
 void calculator() {
