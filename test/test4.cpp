@@ -11,7 +11,7 @@ void guessNumber() {
 	int userNum, ranNum;
 	int count = 1;
 	string again;
-	srand((unsigned)time(NULL)); //rand() 함수가 실행될 때마다 매번 다른 난수를 생성 -> 현재 시간에 따라 다른 시드가 설정 (time.h)
+	srand((unsigned)time(NULL)); //rand() 함수가 실행될 때마다 매번 다른 난수를 생성 -> 현재 시간에 따라 다른 시드가 설정됨 (time.h)
 
 	ranNum = rand() % 100 + 1; // 난수 생성
 
