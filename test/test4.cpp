@@ -12,7 +12,6 @@ void guessNumber() {
 	int count = 1;
 	string again;
 
-
 	ranNum = rand() % 100 + 1;
 
 	cout << "\n";
