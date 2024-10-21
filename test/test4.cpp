@@ -1,7 +1,7 @@
 //랜덤 숫자 찾기 게임
 #include <iostream>
-#include <stdlib.h> //srand((unsigned)time(NULL));
-#include <time.h>
+#include <stdlib.h> // 난수 생성
+#include <time.h> //srand((unsigned)time(NULL));
 #include <string>
 #include <limits> // numeric_limits를 사용하기 위해 추가
 
@@ -11,9 +11,9 @@ void guessNumber() {
 	int userNum, ranNum;
 	int count = 1;
 	string again;
-	srand((unsigned)time(NULL)); //rand() 함수가 실행될 때마다 매번 다른 난수를 생성
+	srand((unsigned)time(NULL)); //rand() 함수가 실행될 때마다 매번 다른 난수를 생성 -> 현재 시간에 따라 다른 시드가 설정 (time.h)
 
-	ranNum = rand() % 100 + 1;
+	ranNum = rand() % 100 + 1; // 난수 생성
 
 	cout << "\n";
 	cout << "1 ~ 100까지의 랜덤 숫자 맞추기 (종료: 0)" << endl;
