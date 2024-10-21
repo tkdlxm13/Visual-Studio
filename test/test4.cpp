@@ -11,7 +11,7 @@ void guessNumber() {
 	int userNum, ranNum;
 	int count = 1;
 	string again;
-	srand((unsigned)time(NULL));
+
 
 	ranNum = rand() % 100 + 1;
 
