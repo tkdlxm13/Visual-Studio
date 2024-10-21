@@ -1,6 +1,6 @@
 //랜덤 숫자 찾기 게임
 #include <iostream>
-#include <stdlib.h>
+#include <stdlib.h> //srand((unsigned)time(NULL));
 #include <time.h>
 #include <string>
 #include <limits> // numeric_limits를 사용하기 위해 추가
@@ -11,6 +11,7 @@ void guessNumber() {
 	int userNum, ranNum;
 	int count = 1;
 	string again;
+	srand((unsigned)time(NULL)); //rand() 함수가 실행될 때마다 매번 다른 난수를 생성
 
 	ranNum = rand() % 100 + 1;
 
